@@ -5,7 +5,7 @@
     "content_scripts": [
         {
             "matches": ["https://www.surf-forecast.com/countries/*/breaks"],
-            "js": "extend-hover.js"
+            "js": ["extend-hover.js"]
         }
     ]
 }
