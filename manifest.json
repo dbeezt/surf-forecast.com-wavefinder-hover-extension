@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "wavefinder-hover-extension",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["https://www.surf-forecast.com/countries/*/breaks"],
+            "js": "extend-hover.js"
+        }
+    ]
+}
